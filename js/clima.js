@@ -2,7 +2,7 @@ function getClima() {
     $.ajax({
         method: 'get',
         crossDomain: true,
-        url: 'http://api.openweathermap.org/data/2.5/weather?id=3468879&appid=d6a65101ec871fe6875b3a1d7dc1e248',
+        url: 'https://api.openweathermap.org/data/2.5/weather?id=3468879&appid=d6a65101ec871fe6875b3a1d7dc1e248',
         dataType: 'json',
         success: function (data) {
             
